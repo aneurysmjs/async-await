@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "start": "babel src/async.js -w -o dist/simple-transpiled.js",
+    "use": "node dist/async-compiled.js"
+  },
+  "devDependencies": {
+    "babel-cli": "6.24.1",
+    "babel-plugin-transform-async-to-generator": "6.24.1",
+    "babel-plugin-transform-es2015-arrow-functions": "6.22.0",
+    "node-fetch": "^1.7.1"
+  },
+  "name": "async-await",
+  "version": "0.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:aneurysmjs/async-await.git",
+  "author": "jero <info@jero.io> (https://jero.io/)",
+  "license": "MIT"
+}
